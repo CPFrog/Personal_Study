@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041BDC59268964F400D8883B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 041BDC58268964F400D8883B /* main.c */; };
+		041BDC59268964F400D8883B /* Hello World.c in Sources */ = {isa = PBXBuildFile; fileRef = 041BDC58268964F400D8883B /* Hello World.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
-		041BDC58268964F400D8883B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		041BDC58268964F400D8883B /* Hello World.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		041BDC57268964F400D8883B /* C Language Study */ = {
 			isa = PBXGroup;
 			children = (
-				041BDC58268964F400D8883B /* main.c */,
+				041BDC58268964F400D8883B /* Hello World.c */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041BDC59268964F400D8883B /* main.c in Sources */,
+				041BDC59268964F400D8883B /* Hello World.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
