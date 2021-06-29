@@ -1,17 +1,18 @@
 package com.edu.study;
 
 import java.io.*;
-import javax.servlet.http.*; //¼­ºí¸´À» ÀÛ¼ºÇÏ±â À§ÇØ »ó¼Ó¹Ş¾Æ¾ß ÇÏ´Â HttpServlet Å¬·¡½º¸¦ »ó¼Ó¹Ş±â À§ÇÑ import ¹®
-import javax.servlet.*; //À§¿¡ import¹®ÀÇ ³»¿ëÀ» Æ÷ÇÔÇÏ°í ÀÖ±â ¶§¹®¿¡ ÇÏ³ª¸¸ ½áµµ µÇ´Â°Å ¾Æ´Ñ°¡ ½ÍÁö¸¸ Line 7ÀÇ ¹®Àå ´Ü¼øÈ­ À§ÇØ ³ÀµÒ.
+import javax.servlet.http.*; //ì„œë¸”ë¦¿ì„ ì‘ì„±í•˜ê¸° ìœ„í•´ ìƒì†ë°›ì•„ì•¼ í•˜ëŠ” HttpServlet í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ê¸° ìœ„í•œ import ë¬¸
+import javax.servlet.*; //ìœ„ì— importë¬¸ì˜ ë‚´ìš©ì„ í¬í•¨í•˜ê³  ìˆê¸° ë•Œë¬¸ì— í•˜ë‚˜ë§Œ ì¨ë„ ë˜ëŠ”ê±° ì•„ë‹Œê°€ ì‹¶ì§€ë§Œ Line 7ì˜ ë¬¸ì¥ ë‹¨ìˆœí™” ìœ„í•´ ëƒ…ë‘ .
 
 public class FirstServlet extends HttpServlet {
-	/*HttpServletÀº À¥ »ó¿¡¼­ Http ÇÁ·ÎÅäÄİÀ» ÀÌ¿ëÇØ ¼­ºñ½º¸¦ Ã³¸®ÇÏ±â À§ÇØ ¹İµå½Ã »ó¼Ó¹Ş¾Æ¾ßÇÏ´Â Å¬·¡½º.*/
+	/*HttpServletì€ ì›¹ ìƒì—ì„œ Http í”„ë¡œí† ì½œì„ ì´ìš©í•´ ì„œë¹„ìŠ¤ë¥¼ ì²˜ë¦¬í•˜ê¸° ìœ„í•´ ë°˜ë“œì‹œ ìƒì†ë°›ì•„ì•¼í•˜ëŠ” í´ë˜ìŠ¤.*/
 	
+	//web.xml íŒŒì¼ì„ í†µí•œ web servlet ì ‘ê·¼. (Servlet ë²„ì „ ìƒê´€ ì—†ì´ ì‚¬ìš© ê°€ëŠ¥.)
 	@Override
 	public void init(ServletConfig config) throws ServletException{
-		System.out.println("OverrideÇÑ init() ½ÇÇàµÊ");
+		System.out.println("Overrideí•œ init() ì‹¤í–‰ë¨");
 	}
 	public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException{
-		System.out.println("OverrideÇÑ service() ½ÇÇàµÊ");
+		System.out.println("Overrideí•œ service() ì‹¤í–‰ë¨");
 	}
 }
