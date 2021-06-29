@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0490619B268AC378004B6C4F /* Q2-05_bodyInfor.c in Sources */ = {isa = PBXBuildFile; fileRef = 0490619A268AC378004B6C4F /* Q2-05_bodyInfor.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		041BDC53268964F400D8883B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,6 +28,7 @@
 		04906194268AA6F5004B6C4F /* Q1-07_age.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-07_age.c"; sourceTree = "<group>"; };
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Chap2_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_01_datatypes.c; sourceTree = "<group>"; };
+		0490619A268AC378004B6C4F /* Q2-05_bodyInfor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-05_bodyInfor.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,7 @@
 				04906194268AA6F5004B6C4F /* Q1-07_age.c */,
 				04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */,
 				04906198268ABB88004B6C4F /* Chap2_01_datatypes.c */,
+				0490619A268AC378004B6C4F /* Q2-05_bodyInfor.c */,
 			);
 			path = "Day 02_210629";
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0490619B268AC378004B6C4F /* Q2-05_bodyInfor.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
