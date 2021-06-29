@@ -57,9 +57,25 @@
 		041BDC57268964F400D8883B /* C Language Study */ = {
 			isa = PBXGroup;
 			children = (
-				041BDC58268964F400D8883B /* Hello World.c */,
+				04906193268AA68E004B6C4F /* Day 02_210629 */,
+				04906192268AA34F004B6C4F /* Day 01_210628 */,
 			);
 			path = "C Language Study";
+			sourceTree = "<group>";
+		};
+		04906192268AA34F004B6C4F /* Day 01_210628 */ = {
+			isa = PBXGroup;
+			children = (
+				041BDC58268964F400D8883B /* Hello World.c */,
+			);
+			path = "Day 01_210628";
+			sourceTree = "<group>";
+		};
+		04906193268AA68E004B6C4F /* Day 02_210629 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Day 02_210629";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
