@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Member Registration</title>
+</head>
+<body>
+<h3>회원 정보</h3>
+<form action="queryTest" method=GET>
+<!-- <form action="queryTest" method=POST> -->
+<!-- GET vs POST
+GET
+1. 질의문자열이 헤더의 URI에 추가됨
+2. 질의문자열 내용이 외부에 노출됨 (password라 할지라도 주소창에 노출)
+3. 질의문자열 길이에 제한 있음 (255 byte)
+4. 인코딩/디코딩 작업 필요 없음
+
+POST
+1. GET 방식의 1~3 내용의 정반대 개념
+2. <form> 태그 사용해야 요청 가능한 방식.
+ -->
+ID : <input type="text" name='id' /><br/>
+PW : <input type=password name=pwd /><br/>
+취미 : 
+<input type=checkbox name=hobby value=climbing/> 등산
+<input type=checkbox name=hobby value=sports/> 운동
+<input type=checkbox name=hobby value=reading/> 독서
+<input type=checkbox name=hobby value=traveling/> 여행 <br/>
+성별 :
+<input type=radio name=gender value=male/> 남자
+<input type=radio name=gender value=female/> 여자<br/>
+종교 : 
+<select name=religion>
+<option value=Christianity> 기독교
+<option value=Buddhism> 불교
+<option value=Catholic> 천주교
+<option value=atheism> 무교
+</select><br/>
+자기소개 :<br/>
+<textarea cols=30 rows=12 name=selfpr></textarea><br/>
+
+<input type=submit value="전송"/>
+<input type=reset value="지우기"/>
+
+</form>
+</body>
+</html>
