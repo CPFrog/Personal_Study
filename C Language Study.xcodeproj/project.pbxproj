@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0490619B268AC378004B6C4F /* Q2-05_bodyInfor.c in Sources */ = {isa = PBXBuildFile; fileRef = 0490619A268AC378004B6C4F /* Q2-05_bodyInfor.c */; };
+		0462E4A2268BF59900FD032B /* Chap2_02_datatype.c in Sources */ = {isa = PBXBuildFile; fileRef = 0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Hello World.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
+		0462E49F268BF02A00FD032B /* research_DataType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = research_DataType.c; sourceTree = "<group>"; };
+		0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_02_datatype.c; sourceTree = "<group>"; };
 		04906194268AA6F5004B6C4F /* Q1-07_age.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-07_age.c"; sourceTree = "<group>"; };
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Chap2_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_01_datatypes.c; sourceTree = "<group>"; };
@@ -61,10 +63,20 @@
 		041BDC57268964F400D8883B /* C Language Study */ = {
 			isa = PBXGroup;
 			children = (
-				04906193268AA68E004B6C4F /* Day 02_210629 */,
 				04906192268AA34F004B6C4F /* Day 01_210628 */,
+				04906193268AA68E004B6C4F /* Day 02_210629 */,
+				0462E49E268BEE7600FD032B /* Day 03_210630 */,
 			);
 			path = "C Language Study";
+			sourceTree = "<group>";
+		};
+		0462E49E268BEE7600FD032B /* Day 03_210630 */ = {
+			isa = PBXGroup;
+			children = (
+				0462E49F268BF02A00FD032B /* research_DataType.c */,
+				0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */,
+			);
+			path = "Day 03_210630";
 			sourceTree = "<group>";
 		};
 		04906192268AA34F004B6C4F /* Day 01_210628 */ = {
@@ -142,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0490619B268AC378004B6C4F /* Q2-05_bodyInfor.c in Sources */,
+				0462E4A2268BF59900FD032B /* Chap2_02_datatype.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
