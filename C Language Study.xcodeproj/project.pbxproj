@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0462E4B2268C149100FD032B /* Chap2_08_macroConstant.c in Sources */ = {isa = PBXBuildFile; fileRef = 0462E4B1268C149100FD032B /* Chap2_08_macroConstant.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		041BDC53268964F400D8883B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -30,6 +34,7 @@
 		0462E4AB268C04DF00FD032B /* Chap2_05_floatType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_05_floatType.c; sourceTree = "<group>"; usesTabs = 1; };
 		0462E4AD268C0E5200FD032B /* Chap2_06_charType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_06_charType.c; sourceTree = "<group>"; };
 		0462E4AF268C12CA00FD032B /* Chap2_07_stringType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_07_stringType.c; sourceTree = "<group>"; };
+		0462E4B1268C149100FD032B /* Chap2_08_macroConstant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_08_macroConstant.c; sourceTree = "<group>"; };
 		04906194268AA6F5004B6C4F /* Q1-07_age.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-07_age.c"; sourceTree = "<group>"; };
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Chap2_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_01_datatypes.c; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 				0462E4AB268C04DF00FD032B /* Chap2_05_floatType.c */,
 				0462E4AD268C0E5200FD032B /* Chap2_06_charType.c */,
 				0462E4AF268C12CA00FD032B /* Chap2_07_stringType.c */,
+				0462E4B1268C149100FD032B /* Chap2_08_macroConstant.c */,
 			);
 			path = "Day 03_210630";
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0462E4B2268C149100FD032B /* Chap2_08_macroConstant.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
