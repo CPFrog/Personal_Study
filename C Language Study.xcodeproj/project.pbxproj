@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0462E4A2268BF59900FD032B /* Chap2_02_datatype.c in Sources */ = {isa = PBXBuildFile; fileRef = 0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */; };
+		0462E4A8268BFBF300FD032B /* Chap2_03_datasize.c in Sources */ = {isa = PBXBuildFile; fileRef = 0462E4A7268BFBF300FD032B /* Chap2_03_datasize.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,9 @@
 		041BDC58268964F400D8883B /* Hello World.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
 		0462E49F268BF02A00FD032B /* research_DataType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = research_DataType.c; sourceTree = "<group>"; };
 		0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_02_datatype.c; sourceTree = "<group>"; };
+		0462E4A3268BF9CD00FD032B /* Q2-06_taxCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-06_taxCal.c"; sourceTree = "<group>"; };
+		0462E4A5268BFB5C00FD032B /* Chap2_02_limits.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_02_limits.c; sourceTree = "<group>"; };
+		0462E4A7268BFBF300FD032B /* Chap2_03_datasize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_03_datasize.c; sourceTree = "<group>"; usesTabs = 1; };
 		04906194268AA6F5004B6C4F /* Q1-07_age.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-07_age.c"; sourceTree = "<group>"; };
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Chap2_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_01_datatypes.c; sourceTree = "<group>"; };
@@ -75,6 +78,9 @@
 			children = (
 				0462E49F268BF02A00FD032B /* research_DataType.c */,
 				0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */,
+				0462E4A5268BFB5C00FD032B /* Chap2_02_limits.c */,
+				0462E4A3268BF9CD00FD032B /* Q2-06_taxCal.c */,
+				0462E4A7268BFBF300FD032B /* Chap2_03_datasize.c */,
 			);
 			path = "Day 03_210630";
 			sourceTree = "<group>";
@@ -154,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0462E4A2268BF59900FD032B /* Chap2_02_datatype.c in Sources */,
+				0462E4A8268BFBF300FD032B /* Chap2_03_datasize.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
