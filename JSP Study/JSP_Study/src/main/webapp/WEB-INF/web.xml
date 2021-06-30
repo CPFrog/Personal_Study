@@ -4,13 +4,21 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
 	<display-name>JSP_Study</display-name>
-	<!--<servlet>
+	<servlet>
 		<servlet-name>first</servlet-name>
 		<servlet-class>com.edu.study.FirstServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdditionalInfo</servlet-name>
+		<servlet-class>com.edu.study.AdditionalInfoServlet_xml</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>first</servlet-name>
 		<url-pattern>/hello</url-pattern>
-	</servlet-mapping> -->
+	</servlet-mapping> 
+	<servlet-mapping>
+		<servlet-name>AdditionalInfo</servlet-name>
+		<url-pattern>/moreinfo_xml/*</url-pattern> <!-- /*이 들어감으로써 뒤에 어떤 문자가 오던지간에 AdditionalInfo 서블릿 실행됨.-->
+	</servlet-mapping> 
 </web-app>
