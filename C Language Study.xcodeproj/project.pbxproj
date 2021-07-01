@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04485156268D531C006E37E9 /* Basic02_09_variables3.c in Sources */ = {isa = PBXBuildFile; fileRef = 04485155268D531C006E37E9 /* Basic02_09_variables3.c */; };
+		04485158268D5672006E37E9 /* Basic02_10_stringArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 04485157268D5672006E37E9 /* Basic02_10_stringArray.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables1.c; sourceTree = "<group>"; };
 		04485153268D525F006E37E9 /* Basic02_09_variables2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables2.c; sourceTree = "<group>"; };
 		04485155268D531C006E37E9 /* Basic02_09_variables3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables3.c; sourceTree = "<group>"; };
+		04485157268D5672006E37E9 /* Basic02_10_stringArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_10_stringArray.c; sourceTree = "<group>"; };
 		0462E49F268BF02A00FD032B /* research_DataType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = research_DataType.c; sourceTree = "<group>"; };
 		0462E4A1268BF59900FD032B /* Basic02_02_datatype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_02_datatype.c; sourceTree = "<group>"; };
 		0462E4A3268BF9CD00FD032B /* Q2-06_taxCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-06_taxCal.c"; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 				04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */,
 				04485153268D525F006E37E9 /* Basic02_09_variables2.c */,
 				04485155268D531C006E37E9 /* Basic02_09_variables3.c */,
+				04485157268D5672006E37E9 /* Basic02_10_stringArray.c */,
 			);
 			path = "Day 04_210701";
 			sourceTree = "<group>";
@@ -188,7 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04485156268D531C006E37E9 /* Basic02_09_variables3.c in Sources */,
+				04485158268D5672006E37E9 /* Basic02_10_stringArray.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
