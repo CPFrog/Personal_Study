@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0448515C268D6149006E37E9 /* Basic03_02_printFormat.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448515B268D6149006E37E9 /* Basic03_02_printFormat.c */; };
+		04485162268D7174006E37E9 /* Q2-14_studentTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 04485161268D7174006E37E9 /* Q2-14_studentTest.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,9 @@
 		04485157268D5672006E37E9 /* Basic02_10_stringArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_10_stringArray.c; sourceTree = "<group>"; };
 		04485159268D603A006E37E9 /* Basic03_01_printf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_01_printf.c; sourceTree = "<group>"; };
 		0448515B268D6149006E37E9 /* Basic03_02_printFormat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_02_printFormat.c; sourceTree = "<group>"; };
+		0448515D268D6C27006E37E9 /* Q2-12_AsciiCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-12_AsciiCal.c"; sourceTree = "<group>"; };
+		0448515F268D6D1B006E37E9 /* Q2-13_arithOper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-13_arithOper.c"; sourceTree = "<group>"; };
+		04485161268D7174006E37E9 /* Q2-14_studentTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-14_studentTest.c"; sourceTree = "<group>"; };
 		0462E49F268BF02A00FD032B /* research_DataType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = research_DataType.c; sourceTree = "<group>"; };
 		0462E4A1268BF59900FD032B /* Basic02_02_datatype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_02_datatype.c; sourceTree = "<group>"; };
 		0462E4A3268BF9CD00FD032B /* Q2-06_taxCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-06_taxCal.c"; sourceTree = "<group>"; };
@@ -94,6 +97,9 @@
 				04485157268D5672006E37E9 /* Basic02_10_stringArray.c */,
 				04485159268D603A006E37E9 /* Basic03_01_printf.c */,
 				0448515B268D6149006E37E9 /* Basic03_02_printFormat.c */,
+				0448515D268D6C27006E37E9 /* Q2-12_AsciiCal.c */,
+				0448515F268D6D1B006E37E9 /* Q2-13_arithOper.c */,
+				04485161268D7174006E37E9 /* Q2-14_studentTest.c */,
 			);
 			path = "Day 04_210701";
 			sourceTree = "<group>";
@@ -194,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0448515C268D6149006E37E9 /* Basic03_02_printFormat.c in Sources */,
+				04485162268D7174006E37E9 /* Q2-14_studentTest.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
