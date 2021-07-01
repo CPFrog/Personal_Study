@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0462E4B2268C149100FD032B /* Chap2_08_macroConstant.c in Sources */ = {isa = PBXBuildFile; fileRef = 0462E4B1268C149100FD032B /* Chap2_08_macroConstant.c */; };
+		04485156268D531C006E37E9 /* Chap2_09_variables3.c in Sources */ = {isa = PBXBuildFile; fileRef = 04485155268D531C006E37E9 /* Chap2_09_variables3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Hello World.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Hello World.c"; sourceTree = "<group>"; };
+		04485151268D4D6F006E37E9 /* Chap2_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_09_variables1.c; sourceTree = "<group>"; };
+		04485153268D525F006E37E9 /* Chap2_09_variables2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_09_variables2.c; sourceTree = "<group>"; };
+		04485155268D531C006E37E9 /* Chap2_09_variables3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_09_variables3.c; sourceTree = "<group>"; };
 		0462E49F268BF02A00FD032B /* research_DataType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = research_DataType.c; sourceTree = "<group>"; };
 		0462E4A1268BF59900FD032B /* Chap2_02_datatype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Chap2_02_datatype.c; sourceTree = "<group>"; };
 		0462E4A3268BF9CD00FD032B /* Q2-06_taxCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-06_taxCal.c"; sourceTree = "<group>"; };
@@ -74,9 +77,21 @@
 				04906192268AA34F004B6C4F /* Day 01_210628 */,
 				04906193268AA68E004B6C4F /* Day 02_210629 */,
 				0462E49E268BEE7600FD032B /* Day 03_210630 */,
+				04485150268D3E5B006E37E9 /* Day 04_210701 */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
+		};
+		04485150268D3E5B006E37E9 /* Day 04_210701 */ = {
+			isa = PBXGroup;
+			children = (
+				04485151268D4D6F006E37E9 /* Chap2_09_variables1.c */,
+				04485153268D525F006E37E9 /* Chap2_09_variables2.c */,
+				04485155268D531C006E37E9 /* Chap2_09_variables3.c */,
+			);
+			path = "Day 04_210701";
+			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		0462E49E268BEE7600FD032B /* Day 03_210630 */ = {
 			isa = PBXGroup;
@@ -94,6 +109,7 @@
 			);
 			path = "Day 03_210630";
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		04906192268AA34F004B6C4F /* Day 01_210628 */ = {
 			isa = PBXGroup;
@@ -102,6 +118,7 @@
 			);
 			path = "Day 01_210628";
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		04906193268AA68E004B6C4F /* Day 02_210629 */ = {
 			isa = PBXGroup;
@@ -113,6 +130,7 @@
 			);
 			path = "Day 02_210629";
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 /* End PBXGroup section */
 
@@ -170,7 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0462E4B2268C149100FD032B /* Chap2_08_macroConstant.c in Sources */,
+				04485156268D531C006E37E9 /* Chap2_09_variables3.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
