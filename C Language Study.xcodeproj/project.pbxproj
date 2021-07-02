@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F7F220268EA14B00A54BFF /* Basic03_04_gets.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F21F268EA14B00A54BFF /* Basic03_04_gets.c */; };
+		04F7F22C268EA91900A54BFF /* Basic05_02_if4-division.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F22B268EA91900A54BFF /* Basic05_02_if4-division.c */; };
+		04F7F22E268EA9D900A54BFF /* Basic05_03_if1.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F22D268EA9D900A54BFF /* Basic05_03_if1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,13 @@
 		04F7F21B268E9FFA00A54BFF /* Basic03_03_scanf3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_03_scanf3.c; sourceTree = "<group>"; };
 		04F7F21D268EA09900A54BFF /* Basic03_03_scanf4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_03_scanf4.c; sourceTree = "<group>"; };
 		04F7F21F268EA14B00A54BFF /* Basic03_04_gets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_04_gets.c; sourceTree = "<group>"; };
+		04F7F221268EA42600A54BFF /* Basic05_01_if1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_01_if1.c; sourceTree = "<group>"; };
+		04F7F223268EA59A00A54BFF /* Basic05_01_if2-absoluteVal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_01_if2-absoluteVal.c"; sourceTree = "<group>"; };
+		04F7F225268EA77300A54BFF /* Basic05_02_if1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_02_if1.c; sourceTree = "<group>"; };
+		04F7F227268EA7EE00A54BFF /* Basic05_02_if2-SmallLarge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_02_if2-SmallLarge.c"; sourceTree = "<group>"; };
+		04F7F229268EA89200A54BFF /* Basic05_02_if3-OddEven.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_02_if3-OddEven.c"; sourceTree = "<group>"; };
+		04F7F22B268EA91900A54BFF /* Basic05_02_if4-division.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_02_if4-division.c"; sourceTree = "<group>"; };
+		04F7F22D268EA9D900A54BFF /* Basic05_03_if1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_03_if1.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +166,13 @@
 				04F7F21B268E9FFA00A54BFF /* Basic03_03_scanf3.c */,
 				04F7F21D268EA09900A54BFF /* Basic03_03_scanf4.c */,
 				04F7F21F268EA14B00A54BFF /* Basic03_04_gets.c */,
+				04F7F221268EA42600A54BFF /* Basic05_01_if1.c */,
+				04F7F223268EA59A00A54BFF /* Basic05_01_if2-absoluteVal.c */,
+				04F7F225268EA77300A54BFF /* Basic05_02_if1.c */,
+				04F7F227268EA7EE00A54BFF /* Basic05_02_if2-SmallLarge.c */,
+				04F7F229268EA89200A54BFF /* Basic05_02_if3-OddEven.c */,
+				04F7F22B268EA91900A54BFF /* Basic05_02_if4-division.c */,
+				04F7F22D268EA9D900A54BFF /* Basic05_03_if1.c */,
 			);
 			path = "Day 05_210702";
 			sourceTree = "<group>";
@@ -219,7 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F7F220268EA14B00A54BFF /* Basic03_04_gets.c in Sources */,
+				04F7F22C268EA91900A54BFF /* Basic05_02_if4-division.c in Sources */,
+				04F7F22E268EA9D900A54BFF /* Basic05_03_if1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
