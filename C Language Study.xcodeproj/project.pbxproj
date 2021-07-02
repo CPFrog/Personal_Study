@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04F7F220268EA14B00A54BFF /* Basic03_04_gets.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F21F268EA14B00A54BFF /* Basic03_04_gets.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		041BDC53268964F400D8883B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -48,6 +52,7 @@
 		04F7F219268E9F6E00A54BFF /* Basic03_03_scanf2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_03_scanf2.c; sourceTree = "<group>"; };
 		04F7F21B268E9FFA00A54BFF /* Basic03_03_scanf3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_03_scanf3.c; sourceTree = "<group>"; };
 		04F7F21D268EA09900A54BFF /* Basic03_03_scanf4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_03_scanf4.c; sourceTree = "<group>"; };
+		04F7F21F268EA14B00A54BFF /* Basic03_04_gets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_04_gets.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +157,7 @@
 				04F7F219268E9F6E00A54BFF /* Basic03_03_scanf2.c */,
 				04F7F21B268E9FFA00A54BFF /* Basic03_03_scanf3.c */,
 				04F7F21D268EA09900A54BFF /* Basic03_03_scanf4.c */,
+				04F7F21F268EA14B00A54BFF /* Basic03_04_gets.c */,
 			);
 			path = "Day 05_210702";
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7F220268EA14B00A54BFF /* Basic03_04_gets.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
