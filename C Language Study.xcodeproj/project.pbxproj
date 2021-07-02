@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04485162268D7174006E37E9 /* Q2-14_studentTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 04485161268D7174006E37E9 /* Q2-14_studentTest.c */; };
+		04F7F218268E98E700A54BFF /* Basic03_03_scanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F217268E98E700A54BFF /* Basic03_03_scanf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +48,7 @@
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Basic02_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_01_datatypes.c; sourceTree = "<group>"; };
 		0490619A268AC378004B6C4F /* Q2-05_bodyInfor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-05_bodyInfor.c"; sourceTree = "<group>"; };
+		04F7F217268E98E700A54BFF /* Basic03_03_scanf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic03_03_scanf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 				04906193268AA68E004B6C4F /* Day 02_210629 */,
 				0462E49E268BEE7600FD032B /* Day 03_210630 */,
 				04485150268D3E5B006E37E9 /* Day 04_210701 */,
+				04F7F216268E8FCC00A54BFF /* Day 05_210702 */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
@@ -144,6 +146,15 @@
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
+		04F7F216268E8FCC00A54BFF /* Day 05_210702 */ = {
+			isa = PBXGroup;
+			children = (
+				04F7F217268E98E700A54BFF /* Basic03_03_scanf.c */,
+			);
+			path = "Day 05_210702";
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04485162268D7174006E37E9 /* Q2-14_studentTest.c in Sources */,
+				04F7F218268E98E700A54BFF /* Basic03_03_scanf.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
