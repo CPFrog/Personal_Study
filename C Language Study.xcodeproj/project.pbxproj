@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04F7F22C268EA91900A54BFF /* Basic05_02_if4-division.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F22B268EA91900A54BFF /* Basic05_02_if4-division.c */; };
-		04F7F22E268EA9D900A54BFF /* Basic05_03_if1.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F7F22D268EA9D900A54BFF /* Basic05_03_if1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +60,12 @@
 		04F7F229268EA89200A54BFF /* Basic05_02_if3-OddEven.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_02_if3-OddEven.c"; sourceTree = "<group>"; };
 		04F7F22B268EA91900A54BFF /* Basic05_02_if4-division.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_02_if4-division.c"; sourceTree = "<group>"; };
 		04F7F22D268EA9D900A54BFF /* Basic05_03_if1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_03_if1.c; sourceTree = "<group>"; };
+		04F7F22F268EB31E00A54BFF /* Basic05_04_for1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_04_for1.c; sourceTree = "<group>"; };
+		04F7F230268EB37C00A54BFF /* Basic05_04_for2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_04_for2.c; sourceTree = "<group>"; };
+		04F7F231268EB3D900A54BFF /* Basic05_04_for3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic05_04_for3.c; sourceTree = "<group>"; };
+		04F7F232268EB42100A54BFF /* Basic05_04_for4-sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_04_for4-sum.c"; sourceTree = "<group>"; };
+		04F7F233268EB4A200A54BFF /* Basic05_04_for5-evenSum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_04_for5-evenSum.c"; sourceTree = "<group>"; };
+		04F7F234268EB54000A54BFF /* Basic05_04_for6-nTimePrint.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Basic05_04_for6-nTimePrint.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +178,12 @@
 				04F7F229268EA89200A54BFF /* Basic05_02_if3-OddEven.c */,
 				04F7F22B268EA91900A54BFF /* Basic05_02_if4-division.c */,
 				04F7F22D268EA9D900A54BFF /* Basic05_03_if1.c */,
+				04F7F22F268EB31E00A54BFF /* Basic05_04_for1.c */,
+				04F7F230268EB37C00A54BFF /* Basic05_04_for2.c */,
+				04F7F231268EB3D900A54BFF /* Basic05_04_for3.c */,
+				04F7F232268EB42100A54BFF /* Basic05_04_for4-sum.c */,
+				04F7F233268EB4A200A54BFF /* Basic05_04_for5-evenSum.c */,
+				04F7F234268EB54000A54BFF /* Basic05_04_for6-nTimePrint.c */,
 			);
 			path = "Day 05_210702";
 			sourceTree = "<group>";
@@ -235,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F7F22C268EA91900A54BFF /* Basic05_02_if4-division.c in Sources */,
-				04F7F22E268EA9D900A54BFF /* Basic05_03_if1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
