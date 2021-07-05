@@ -15,7 +15,8 @@ public class QueryTest3Servlet extends HttpServlet {
 		out.print("<html><head><title>Query 문자열 테스트</title></head><html>");
 		out.print("<body>");
 		out.print("<h1>GET 방식으로 요청되었습니다.</h1>");
-
+		
+		req.setCharacterEncoding("UTF-8");
 		String name = req.getParameter("name");
 		out.print("이름 : " + name + "<br/>");
 
@@ -31,6 +32,7 @@ public class QueryTest3Servlet extends HttpServlet {
 		out.print("<body>");
 		out.print("<h1>POST 방식으로 요청되었습니다.</h1>");
 
+		req.setCharacterEncoding("UTF-8");
 		String name = req.getParameter("name");
 		out.print("이름 : " + name + "<br/>");
 
