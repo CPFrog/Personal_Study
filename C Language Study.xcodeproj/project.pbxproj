@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04AFF6C22692B2FB00BA206E /* HW3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04AFF6C12692B2FB00BA206E /* HW3.cpp */; };
+		041140412693EFE800701C02 /* research_null char.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 041140402693EFE800701C02 /* research_null char.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		041140402693EFE800701C02 /* research_null char.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "research_null char.cpp"; sourceTree = "<group>"; };
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Basic01_HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic01_HelloWorld.c; sourceTree = "<group>"; };
 		04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables1.c; sourceTree = "<group>"; };
@@ -84,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0411403F2693EF1C00701C02 /* Day 07_210706 */ = {
+			isa = PBXGroup;
+			children = (
+				041140402693EFE800701C02 /* research_null char.cpp */,
+			);
+			path = "Day 07_210706";
+			sourceTree = "<group>";
+		};
 		041BDC4C268964F400D8883B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +112,7 @@
 		041BDC57268964F400D8883B /* C Language Study */ = {
 			isa = PBXGroup;
 			children = (
+				0411403F2693EF1C00701C02 /* Day 07_210706 */,
 				04906192268AA34F004B6C4F /* Day 01_210628 */,
 				04906193268AA68E004B6C4F /* Day 02_210629 */,
 				0462E49E268BEE7600FD032B /* Day 03_210630 */,
@@ -264,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AFF6C22692B2FB00BA206E /* HW3.cpp in Sources */,
+				041140412693EFE800701C02 /* research_null char.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
