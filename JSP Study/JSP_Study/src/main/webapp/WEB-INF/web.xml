@@ -4,6 +4,12 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
 	<display-name>JSP_Study</display-name>
+	<!-- ServletContext 객체가 웹 앱 단위로 사용할 수 있는 변수가 되기 위해 추가한 코드 -->
+	<context-param>
+		<param-name>contextConfig</param-name>
+		<param-value>/WEB-INF/context.xml</param-value>
+	</context-param>
+	<!-- 웹 앱 단위 ServletContext 변수 코드 끝 -->
 	<servlet>
 		<servlet-name>first</servlet-name>
 		<servlet-class>com.edu.study.FirstServlet</servlet-class>
