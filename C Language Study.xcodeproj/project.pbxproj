@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041140412693EFE800701C02 /* research_null char.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 041140402693EFE800701C02 /* research_null char.cpp */; };
+		041140482694239700701C02 /* HW5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0411404426940F9B00701C02 /* HW5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		041140402693EFE800701C02 /* research_null char.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "research_null char.cpp"; sourceTree = "<group>"; };
+		04114042269403BB00701C02 /* HW4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW4.cpp; sourceTree = "<group>"; };
+		0411404426940F9B00701C02 /* HW5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW5.cpp; sourceTree = "<group>"; };
+		0411404626941DE600701C02 /* HW6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW6.cpp; sourceTree = "<group>"; };
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Basic01_HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic01_HelloWorld.c; sourceTree = "<group>"; };
 		04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables1.c; sourceTree = "<group>"; };
@@ -89,6 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				041140402693EFE800701C02 /* research_null char.cpp */,
+				04114042269403BB00701C02 /* HW4.cpp */,
+				0411404426940F9B00701C02 /* HW5.cpp */,
+				0411404626941DE600701C02 /* HW6.cpp */,
 			);
 			path = "Day 07_210706";
 			sourceTree = "<group>";
@@ -274,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041140412693EFE800701C02 /* research_null char.cpp in Sources */,
+				041140482694239700701C02 /* HW5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
