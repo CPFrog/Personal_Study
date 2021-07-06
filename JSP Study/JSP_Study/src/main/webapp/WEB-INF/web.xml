@@ -21,4 +21,38 @@
 		<servlet-name>AdditionalInfo</servlet-name>
 		<url-pattern>/moreinfo_xml/*</url-pattern> <!-- /*이 들어감으로써 뒤에 어떤 문자가 오던지간에 AdditionalInfo 서블릿 실행됨.-->
 	</servlet-mapping> 
+	
+	<servlet>
+	<servlet-name>initParam</servlet-name>
+	<servlet-class>com.edu.study.InitParamServlet</servlet-class>
+	<init-param>
+		<param-name>id</param-name>
+		<param-value>guest</param-value>
+	</init-param>
+	<init-param>
+		<param-name>password</param-name>
+		<param-value>1004</param-value>
+	</init-param>
+	<load-on-startup>1</load-on-startup>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>initParam</servlet-name>
+	<url-pattern>/initParamTest</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ServletConfigTest</servlet-name>
+	<servlet-class>com.edu.study.ServletConfigTestServlet</servlet-class>
+	<init-param>
+		<param-name>charset</param-name>
+		<param-value>UTF-8</param-value>
+	</init-param>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ServletConfigTest</servlet-name>
+	<url-pattern>/ServletConfigTest</url-pattern>
+</servlet-mapping>
 </web-app>
+
