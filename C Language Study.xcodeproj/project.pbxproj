@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0411405E2695546C00701C02 /* HW7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0411404A26952C4D00701C02 /* HW7.cpp */; };
+		0411406526969C5400701C02 /* research_string_var.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0411406426969C5400701C02 /* research_string_var.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,9 @@
 		04114053269537A800701C02 /* HW11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW11.cpp; sourceTree = "<group>"; };
 		0411405526953A4200701C02 /* HW12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW12.cpp; sourceTree = "<group>"; };
 		0411405926953EEE00701C02 /* overflow&underflow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "overflow&underflow.cpp"; sourceTree = "<group>"; };
+		041140602696876700701C02 /* HW13.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW13.cpp; sourceTree = "<group>"; };
+		041140622696959900701C02 /* research_float_loop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = research_float_loop.cpp; sourceTree = "<group>"; };
+		0411406426969C5400701C02 /* research_string_var.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = research_string_var.cpp; sourceTree = "<group>"; };
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Basic01_HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic01_HelloWorld.c; sourceTree = "<group>"; };
 		04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables1.c; sourceTree = "<group>"; };
@@ -124,9 +127,13 @@
 			children = (
 				04114053269537A800701C02 /* HW11.cpp */,
 				0411405526953A4200701C02 /* HW12.cpp */,
+				041140602696876700701C02 /* HW13.cpp */,
+				041140622696959900701C02 /* research_float_loop.cpp */,
+				0411406426969C5400701C02 /* research_string_var.cpp */,
 			);
 			path = "Day 09_210708";
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		041BDC4C268964F400D8883B = {
 			isa = PBXGroup;
@@ -311,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0411405E2695546C00701C02 /* HW7.cpp in Sources */,
+				0411406526969C5400701C02 /* research_string_var.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
