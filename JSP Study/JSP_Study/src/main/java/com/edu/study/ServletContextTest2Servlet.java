@@ -17,8 +17,8 @@ public class ServletContextTest2Servlet extends HttpServlet{
 		out.print("서블릿 버전 : " + sc.getMajorVersion() + "."+sc.getMinorVersion()+"<br>");
 		out.print("서버 정보 : " + sc.getServerInfo()+"<br>");
 		out.print("웹 앱 경로 : " + sc.getContextPath()+"<br>");
-		out.print("웹 앱 경로 : " + sc.getServletContextName()+"<br>");
-		out.print("웹 앱 경로 : " + sc.getRealPath("/name.html")+"<br>");
+		out.print("웹 앱 이름 : " + sc.getServletContextName()+"<br>");
+		out.print("파일 실제 경로 : " + sc.getRealPath("/name.html")+"<br>");
 		sc.log("로그 기록함!");
 		
 		out.close();
