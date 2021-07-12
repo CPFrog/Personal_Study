@@ -17,13 +17,20 @@ int main(){
     ch=getchar();
     printf("ch: %c\n",ch); //문자를 가져오는 과정이 정상적으로 동작함.
     
+    //만약 lf에 .만 들어간다면?
+    //만약 10.0f나 1.345e+3과 같은 형태라면?
+    
     return 0;
 }
 
 void myflush(){
-    char ch='a';
-    while(ch!='\n'){
-    ch=getchar();
+    while(getchar()!='\n'){}
+    /*
+     위의 문장과 동일함.
+     char ch='a';
+     while(ch!='\n'){
+     ch=getchar();
     }
+     */
     return;
 }

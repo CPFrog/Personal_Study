@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046AF16A269BDEA800BEB977 /* lab_stdin-buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046AF169269BDEA800BEB977 /* lab_stdin-buffer.cpp */; };
+		046AF16E269BEDBF00BEB977 /* HW14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046AF16D269BEDBF00BEB977 /* HW14.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +66,7 @@
 		0462E4AF268C12CA00FD032B /* Basic02_07_stringType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_07_stringType.c; sourceTree = "<group>"; };
 		0462E4B1268C149100FD032B /* Basic02_08_macroConstant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_08_macroConstant.c; sourceTree = "<group>"; };
 		046AF169269BDEA800BEB977 /* lab_stdin-buffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "lab_stdin-buffer.cpp"; sourceTree = "<group>"; };
+		046AF16D269BEDBF00BEB977 /* HW14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW14.cpp; sourceTree = "<group>"; };
 		04906194268AA6F5004B6C4F /* Q1-07_age.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-07_age.c"; sourceTree = "<group>"; };
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Basic02_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_01_datatypes.c; sourceTree = "<group>"; };
@@ -145,15 +146,6 @@
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
-		0411406B2696A3B600701C02 /* Garauge */ = {
-			isa = PBXGroup;
-			children = (
-				0411405526953A4200701C02 /* HW12.cpp */,
-				041140602696876700701C02 /* HW13.cpp */,
-			);
-			path = Garauge;
-			sourceTree = "<group>";
-		};
 		041BDC4C268964F400D8883B = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +176,6 @@
 				0411405F2695554800701C02 /* Day 09_210708 */,
 				04AC90902697CEC1000D0561 /* Day 10_210709 */,
 				046AF168269BDE8000BEB977 /* Day 11_210712 */,
-				0411406B2696A3B600701C02 /* Garauge */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
@@ -228,9 +219,13 @@
 			isa = PBXGroup;
 			children = (
 				046AF169269BDEA800BEB977 /* lab_stdin-buffer.cpp */,
+				0411405526953A4200701C02 /* HW12.cpp */,
+				041140602696876700701C02 /* HW13.cpp */,
+				046AF16D269BEDBF00BEB977 /* HW14.cpp */,
 			);
 			path = "Day 11_210712";
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		04906192268AA34F004B6C4F /* Day 01_210628 */ = {
 			isa = PBXGroup;
@@ -363,7 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046AF16A269BDEA800BEB977 /* lab_stdin-buffer.cpp in Sources */,
+				046AF16E269BEDBF00BEB977 /* HW14.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,14 +10,8 @@ int main(){
     char name[20];
 	scanf("%s", name);
 	
-	int flen=strlen(family), nlen=strlen(name);
-	printf("%s\t%s\n",family,name);
-	for (int i=0;i<flen-(1+flen/10);i++)
-		printf(" ");
-	printf("%d\t", flen);
-	for (int i=0;i<nlen-(1+nlen/10);i++)
-		printf(" ");
-	printf("%d\n", nlen);
+	printf("%s %s\n",family,name);
+    printf("%*d %*d\n", strlen(family), strlen(family), strlen(name), strlen(name));
 	
 	return 0;
 }
