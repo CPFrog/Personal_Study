@@ -11,8 +11,8 @@ public class CookieTest3Servlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		int cnt=0;
 		Cookie[] list=req.getCookies();
-		for(int i=0;list!=null&&i<list.length();i++) {
-			if(list[i].getName().equals("Count"))
+		for(int i=0;list!=null&&i<list.length;i++) {
+			if(list[i].getName().equals("count"))
 				cnt=Integer.parseInt(list[i].getValue());
 		}
 		cnt++;
