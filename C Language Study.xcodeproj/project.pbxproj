@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04325B78269D33D40086374E /* Q3_reverseStairNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04325B77269D33D40086374E /* Q3_reverseStairNum.cpp */; };
+		04325B7F269D62500086374E /* HW25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04325B7E269D62500086374E /* HW25.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +49,9 @@
 		04325B72269D30FF0086374E /* Q1_printStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1_printStar.cpp; sourceTree = "<group>"; };
 		04325B75269D320F0086374E /* Q2_stairNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2_stairNum.cpp; sourceTree = "<group>"; };
 		04325B77269D33D40086374E /* Q3_reverseStairNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q3_reverseStairNum.cpp; sourceTree = "<group>"; };
+		04325B7A269D5A560086374E /* HW23.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW23.cpp; sourceTree = "<group>"; };
+		04325B7C269D5B9A0086374E /* HW24.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW24.cpp; sourceTree = "<group>"; };
+		04325B7E269D62500086374E /* HW25.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW25.cpp; sourceTree = "<group>"; };
 		04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables1.c; sourceTree = "<group>"; };
 		04485153268D525F006E37E9 /* Basic02_09_variables2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables2.c; sourceTree = "<group>"; };
 		04485155268D531C006E37E9 /* Basic02_09_variables3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables3.c; sourceTree = "<group>"; };
@@ -190,6 +193,9 @@
 				04325B72269D30FF0086374E /* Q1_printStar.cpp */,
 				04325B75269D320F0086374E /* Q2_stairNum.cpp */,
 				04325B77269D33D40086374E /* Q3_reverseStairNum.cpp */,
+				04325B7A269D5A560086374E /* HW23.cpp */,
+				04325B7C269D5B9A0086374E /* HW24.cpp */,
+				04325B7E269D62500086374E /* HW25.cpp */,
 			);
 			path = "Day 12_210713";
 			sourceTree = "<group>";
@@ -373,7 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04325B78269D33D40086374E /* Q3_reverseStairNum.cpp in Sources */,
+				04325B7F269D62500086374E /* HW25.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
