@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046AF16E269BEDBF00BEB977 /* HW14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 046AF16D269BEDBF00BEB977 /* HW14.cpp */; };
+		04325B78269D33D40086374E /* Q3_reverseStairNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04325B77269D33D40086374E /* Q3_reverseStairNum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +46,9 @@
 		041140692696A22500701C02 /* HW16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW16.cpp; sourceTree = "<group>"; };
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Basic01_HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic01_HelloWorld.c; sourceTree = "<group>"; };
+		04325B72269D30FF0086374E /* Q1_printStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1_printStar.cpp; sourceTree = "<group>"; };
+		04325B75269D320F0086374E /* Q2_stairNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2_stairNum.cpp; sourceTree = "<group>"; };
+		04325B77269D33D40086374E /* Q3_reverseStairNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q3_reverseStairNum.cpp; sourceTree = "<group>"; };
 		04485151268D4D6F006E37E9 /* Basic02_09_variables1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables1.c; sourceTree = "<group>"; };
 		04485153268D525F006E37E9 /* Basic02_09_variables2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables2.c; sourceTree = "<group>"; };
 		04485155268D531C006E37E9 /* Basic02_09_variables3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_09_variables3.c; sourceTree = "<group>"; };
@@ -176,9 +179,21 @@
 				0411405F2695554800701C02 /* Day 09_210708 */,
 				04AC90902697CEC1000D0561 /* Day 10_210709 */,
 				046AF168269BDE8000BEB977 /* Day 11_210712 */,
+				04325B71269D145D0086374E /* Day 12_210713 */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
+		};
+		04325B71269D145D0086374E /* Day 12_210713 */ = {
+			isa = PBXGroup;
+			children = (
+				04325B72269D30FF0086374E /* Q1_printStar.cpp */,
+				04325B75269D320F0086374E /* Q2_stairNum.cpp */,
+				04325B77269D33D40086374E /* Q3_reverseStairNum.cpp */,
+			);
+			path = "Day 12_210713";
+			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		04485150268D3E5B006E37E9 /* Day 04_210701 */ = {
 			isa = PBXGroup;
@@ -358,7 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046AF16E269BEDBF00BEB977 /* HW14.cpp in Sources */,
+				04325B78269D33D40086374E /* Q3_reverseStairNum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
