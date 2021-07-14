@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04325B7F269D62500086374E /* HW25.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04325B7E269D62500086374E /* HW25.cpp */; };
+		04119823269EA756004EF23F /* HW26.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04119822269EA756004EF23F /* HW26.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +44,8 @@
 		0411406426969C5400701C02 /* research_string_var.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = research_string_var.cpp; sourceTree = "<group>"; };
 		041140672696A16800701C02 /* HW15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW15.cpp; sourceTree = "<group>"; };
 		041140692696A22500701C02 /* HW16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW16.cpp; sourceTree = "<group>"; };
+		04119820269E862C004EF23F /* lab_sizeof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab_sizeof.cpp; sourceTree = "<group>"; };
+		04119822269EA756004EF23F /* HW26.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW26.cpp; sourceTree = "<group>"; };
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Basic01_HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic01_HelloWorld.c; sourceTree = "<group>"; };
 		04325B72269D30FF0086374E /* Q1_printStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1_printStar.cpp; sourceTree = "<group>"; };
@@ -152,6 +154,16 @@
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
+		0411981F269E85EE004EF23F /* Day 13_210714 */ = {
+			isa = PBXGroup;
+			children = (
+				04119820269E862C004EF23F /* lab_sizeof.cpp */,
+				04119822269EA756004EF23F /* HW26.cpp */,
+			);
+			path = "Day 13_210714";
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
 		041BDC4C268964F400D8883B = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +195,7 @@
 				04AC90902697CEC1000D0561 /* Day 10_210709 */,
 				046AF168269BDE8000BEB977 /* Day 11_210712 */,
 				04325B71269D145D0086374E /* Day 12_210713 */,
+				0411981F269E85EE004EF23F /* Day 13_210714 */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
@@ -379,7 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04325B7F269D62500086374E /* HW25.cpp in Sources */,
+				04119823269EA756004EF23F /* HW26.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
