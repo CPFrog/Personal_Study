@@ -5,15 +5,19 @@ int input();
 void flush();
 
 int main(){
-	int num=input();
-	printf("%d(10) = ",num);
-	unsigned int mask=INT_MIN;
-	for(int i=31;i>=0;i--){
-		unsigned int res=mask&num;
-		printf("%u",res>>(unsigned int)i);
-		mask>>=1;
+	for(int cnt=0;cnt<2;cnt++){
+		int num=input();
+		printf("%d(10) = ",num);
+		unsigned int mask=INT_MIN;
+		for(int i=31;i>=0;i--){
+			unsigned int res=mask&num;
+			printf("%u",res>>(unsigned int)i);
+			mask>>=1;
+		}
+		printf("(2)\n");
+		if(cnt==0)
+			printf("\n");
 	}
-	printf("(2)\n");
 	return 0;
 }
 

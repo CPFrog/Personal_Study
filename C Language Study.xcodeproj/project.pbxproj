@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04FB188D269FF4D1002B15B4 /* HW30.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04585EFA269FEB8900923070 /* HW30.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		041BDC53268964F400D8883B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -405,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FB188D269FF4D1002B15B4 /* HW30.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
