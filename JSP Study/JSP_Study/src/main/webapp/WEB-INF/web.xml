@@ -84,11 +84,11 @@
 		<filter-name>flow2</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-
+	<!-- annotation으로 실행 가능해서 주석 처리.
 	<listener>
 		<listener-class>com.edu.chapter7.TestServletContextListener</listener-class>
 	</listener>
-
+	 -->
 	<!-- 
 	<listener>
 		<listener-class>com.edu.chapter7.TestSessionListener</listener-class>

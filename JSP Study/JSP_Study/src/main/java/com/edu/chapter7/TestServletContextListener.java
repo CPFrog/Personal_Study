@@ -1,7 +1,9 @@
 package com.edu.chapter7;
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebListener;
 
+@WebListener
 public class TestServletContextListener implements ServletContextListener{
 	public TestServletContextListener() {
 		System.out.println("TestServletContextListener 객체 생성자 실행됨");
