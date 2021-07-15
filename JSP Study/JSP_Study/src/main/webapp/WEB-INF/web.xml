@@ -86,6 +86,16 @@
 	</filter-mapping>
 	
 	<listener>
+		<listener-class>com.edu.chapter7.TestSessionListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.edu.chapter7.TestSessionAttributeListener</listener-class>
+	</listener>
+	
+	
+	<!--
+	<listener>
 		<listener-class>com.edu.chapter7.TestRequestListener</listener-class>
 	</listener>
+	-->
 </web-app>
