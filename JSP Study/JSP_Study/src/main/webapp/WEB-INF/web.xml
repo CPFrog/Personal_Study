@@ -84,16 +84,19 @@
 		<filter-name>flow2</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
-	
+
+	<listener>
+		<listener-class>com.edu.chapter7.TestServletContextListener</listener-class>
+	</listener>
+
+	<!-- 
 	<listener>
 		<listener-class>com.edu.chapter7.TestSessionListener</listener-class>
 	</listener>
 	<listener>
 		<listener-class>com.edu.chapter7.TestSessionAttributeListener</listener-class>
 	</listener>
-	
-	
-	<!--
+
 	<listener>
 		<listener-class>com.edu.chapter7.TestRequestListener</listener-class>
 	</listener>
