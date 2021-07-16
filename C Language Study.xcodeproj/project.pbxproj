@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04194A0626A169AE004A7C35 /* HW38.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04194A0526A169AE004A7C35 /* HW38.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		041BDC53268964F400D8883B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -44,6 +48,13 @@
 		04119822269EA756004EF23F /* HW26.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW26.cpp; sourceTree = "<group>"; };
 		04119824269EBDB8004EF23F /* HW27.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW27.cpp; sourceTree = "<group>"; };
 		04119826269EC26C004EF23F /* HW28.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW28.cpp; sourceTree = "<group>"; };
+		041949F826A147BE004A7C35 /* HW31.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW31.cpp; sourceTree = "<group>"; usesTabs = 1; };
+		041949FB26A153D8004A7C35 /* HW32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW32.cpp; sourceTree = "<group>"; };
+		041949FD26A15C6B004A7C35 /* HW34.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW34.cpp; sourceTree = "<group>"; };
+		041949FF26A1632A004A7C35 /* HW35.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW35.cpp; sourceTree = "<group>"; };
+		04194A0126A164A2004A7C35 /* HW36.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW36.cpp; sourceTree = "<group>"; };
+		04194A0326A1666D004A7C35 /* HW37.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW37.cpp; sourceTree = "<group>"; };
+		04194A0526A169AE004A7C35 /* HW38.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW38.cpp; sourceTree = "<group>"; };
 		041BDC55268964F400D8883B /* C Language Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Language Study"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041BDC58268964F400D8883B /* Basic01_HelloWorld.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic01_HelloWorld.c; sourceTree = "<group>"; };
 		04325B72269D30FF0086374E /* Q1_printStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1_printStar.cpp; sourceTree = "<group>"; };
@@ -166,6 +177,21 @@
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
+		041949F726A14796004A7C35 /* Day 15_210716 */ = {
+			isa = PBXGroup;
+			children = (
+				041949F826A147BE004A7C35 /* HW31.cpp */,
+				041949FB26A153D8004A7C35 /* HW32.cpp */,
+				041949FD26A15C6B004A7C35 /* HW34.cpp */,
+				041949FF26A1632A004A7C35 /* HW35.cpp */,
+				04194A0126A164A2004A7C35 /* HW36.cpp */,
+				04194A0326A1666D004A7C35 /* HW37.cpp */,
+				04194A0526A169AE004A7C35 /* HW38.cpp */,
+			);
+			path = "Day 15_210716";
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
 		041BDC4C268964F400D8883B = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +225,7 @@
 				04325B71269D145D0086374E /* Day 12_210713 */,
 				0411981F269E85EE004EF23F /* Day 13_210714 */,
 				04585EF9269FE71800923070 /* Day 14_210715 */,
+				041949F726A14796004A7C35 /* Day 15_210716 */,
 			);
 			path = "C Language Study";
 			sourceTree = "<group>";
@@ -405,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04194A0626A169AE004A7C35 /* HW38.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
