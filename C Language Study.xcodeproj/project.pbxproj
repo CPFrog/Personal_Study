@@ -96,6 +96,7 @@
 		049538CF26A4EDCA00ECA8C2 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		049538D226A4F8D100ECA8C2 /* HW41.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW41.cpp; sourceTree = "<group>"; };
 		049538D526A500D300ECA8C2 /* lab09-03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "lab09-03.cpp"; sourceTree = "<group>"; };
+		049538D726A51E3F00ECA8C2 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		04AC90912697CEEB000D0561 /* research_type_casting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = research_type_casting.cpp; sourceTree = "<group>"; };
 		04AC90932697D3FB000D0561 /* res.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = res.cpp; sourceTree = "<group>"; };
 		04AFF6BD2692AE6600BA206E /* HW1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW1.cpp; sourceTree = "<group>"; };
@@ -347,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				049538D526A500D300ECA8C2 /* lab09-03.cpp */,
+				049538D726A51E3F00ECA8C2 /* User.h */,
 			);
 			path = "Day 16_210719";
 			sourceTree = "<group>";
