@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		049538D626A500D300ECA8C2 /* lab09-03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 049538D526A500D300ECA8C2 /* lab09-03.cpp */; };
+		049538D826A51FFE00ECA8C2 /* HW33.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0434BE8F26A4D3AC00F7F0EE /* HW33.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -256,7 +257,6 @@
 		0434BE8E26A4D38700F7F0EE /* Stock */ = {
 			isa = PBXGroup;
 			children = (
-				0434BE8F26A4D3AC00F7F0EE /* HW33.cpp */,
 				0434BE9326A4E3E300F7F0EE /* HW39.cpp */,
 				0434BE9126A4E33300F7F0EE /* HW40.cpp */,
 				049538CF26A4EDCA00ECA8C2 /* test.cpp */,
@@ -347,6 +347,7 @@
 		049538D426A500B800ECA8C2 /* Day 16_210719 */ = {
 			isa = PBXGroup;
 			children = (
+				0434BE8F26A4D3AC00F7F0EE /* HW33.cpp */,
 				049538D526A500D300ECA8C2 /* lab09-03.cpp */,
 				049538D726A51E3F00ECA8C2 /* User.h */,
 			);
@@ -463,6 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049538D826A51FFE00ECA8C2 /* HW33.cpp in Sources */,
 				049538D626A500D300ECA8C2 /* lab09-03.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
