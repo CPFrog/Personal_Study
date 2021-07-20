@@ -18,5 +18,6 @@
 		<%=msg%> <br/ >
 		<input type="submit" value="로그인"><br />
 	</form>
+	<a href="example10.jsp">로그아웃</a>
 </body>
 </html>
