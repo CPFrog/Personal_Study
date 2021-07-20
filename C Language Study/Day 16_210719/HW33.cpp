@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include <limits.h>
+typedef unsigned char uc;
 
 int menu();
 void flush();
-char openFan(char status);
-char closeFan(char status);
-char reverseFan(char status);
-void displayFan(char status);
+uc openFan(uc status);
+uc closeFan(uc status);
+uc reverseFan(uc status);
+void displayFan(uc status);
 void print_dash();
 
 int main(){
-	char status=0;
+	uc status=0;
 	while(1){
 		int select=menu();
 		if(select==4)
 			return 0;
 		else{
-			printf("status : %d\n", status);
 			switch (select) {
 				case 1:
 					status=openFan(status);
@@ -48,7 +48,7 @@ int menu(){
 	}
 }
 
-char openFan(char status){
+uc openFan(uc status){
 	print_dash();
 	printf("\t\t\tFan  열기  작업  실행  화면\n");
 	print_dash();
@@ -65,13 +65,13 @@ char openFan(char status){
 			printf("!! 입력값이 잘못되었습니다. 다시 입력하세요.\n");
 		else break;
 	}
-	char temp=status;
-	unsigned char mask=1;
+	uc temp=status;
+	uc mask=1;
 	mask<<=(num-1);
 	return temp|mask;
 }
 
-char closeFan(char status){
+uc closeFan(uc status){
 	print_dash();
 	printf("\t\t\tFan  닫기  작업  실행  화면\n");
 	print_dash();
@@ -88,13 +88,13 @@ char closeFan(char status){
 			printf("!! 입력값이 잘못되었습니다. 다시 입력하세요.\n");
 		else break;
 	}
-	char temp=status;
-	unsigned char mask=1;
+	uc temp=status;
+	uc mask=1;
 	mask<<=(num-1);
 	return temp&(~mask);
 }
 
-char reverseFan(char status){
+uc reverseFan(uc status){
 	print_dash();
 	printf("\t\t\tFan  닫기  작업  실행  화면\n");
 	print_dash();
@@ -102,12 +102,12 @@ char reverseFan(char status){
 	return ~status;
 }
 
-void displayFan(char status){
+void displayFan(uc status){
 	print_dash();
 	for(int i=8;i>0;i--)
 		printf("%d번FAN  ",i);
 	printf("\n");
-	unsigned char mask=CHAR_MIN;
+	uc mask=CHAR_MIN;
 	for(int i=0;i<8;i++){
 		if((status&mask)!=0)
 			printf(" ON    ");
@@ -115,7 +115,6 @@ void displayFan(char status){
 		mask>>=1;
 	}
 	printf("\n");
-	printf("status : %d\n", status);
 	print_dash();
 	return;
 }
