@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		048AEBB126A7CBAC00707C7A /* HW45.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 048AEBB026A7CBAC00707C7A /* HW45.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		041BDC53268964F400D8883B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -85,6 +89,8 @@
 		0462E4B1268C149100FD032B /* Basic02_08_macroConstant.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_08_macroConstant.c; sourceTree = "<group>"; };
 		046AF169269BDEA800BEB977 /* lab_stdin-buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "lab_stdin-buffer.c"; sourceTree = "<group>"; };
 		046AF16D269BEDBF00BEB977 /* HW14.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW14.cpp; sourceTree = "<group>"; };
+		048AEBAE26A7C75500707C7A /* HW44.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW44.cpp; sourceTree = "<group>"; };
+		048AEBB026A7CBAC00707C7A /* HW45.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW45.cpp; sourceTree = "<group>"; };
 		04906194268AA6F5004B6C4F /* Q1-07_age.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-07_age.c"; sourceTree = "<group>"; };
 		04906196268AA7BE004B6C4F /* Q1-08_siUnit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q1-08_siUnit.c"; sourceTree = "<group>"; };
 		04906198268ABB88004B6C4F /* Basic02_01_datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_01_datatypes.c; sourceTree = "<group>"; };
@@ -234,6 +240,7 @@
 				041949F726A14796004A7C35 /* Day 15_210716 */,
 				049538D426A500B800ECA8C2 /* Day 16_210719 */,
 				04AD199026A6517C00E9E25E /* Day 17_210720 */,
+				048AEBAD26A7C72700707C7A /* Day 18_210721 */,
 				0434BE8E26A4D38700F7F0EE /* Stock */,
 			);
 			path = "C Language Study";
@@ -318,6 +325,15 @@
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
+		048AEBAD26A7C72700707C7A /* Day 18_210721 */ = {
+			isa = PBXGroup;
+			children = (
+				048AEBAE26A7C75500707C7A /* HW44.cpp */,
+				048AEBB026A7CBAC00707C7A /* HW45.cpp */,
+			);
+			path = "Day 18_210721";
+			sourceTree = "<group>";
+		};
 		04906192268AA34F004B6C4F /* Day 01_210628 */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,9 +387,9 @@
 				0434BE9326A4E3E300F7F0EE /* HW39.cpp */,
 				0434BE9126A4E33300F7F0EE /* HW40.cpp */,
 				049538D226A4F8D100ECA8C2 /* HW41.cpp */,
-				04AD199126A651EE00E9E25E /* lab_argument.c */,
 				04AD199526A6713200E9E25E /* HW42.cpp */,
 				04AD199A26A6740700E9E25E /* HW43.cpp */,
+				04AD199126A651EE00E9E25E /* lab_argument.c */,
 			);
 			path = "Day 17_210720";
 			sourceTree = "<group>";
@@ -474,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048AEBB126A7CBAC00707C7A /* HW45.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
