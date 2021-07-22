@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045D157626A8D703003A759D /* HW47.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045D157526A8D703003A759D /* HW47.cpp */; };
+		045D157C26A8FB0D003A759D /* lab_array-range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045D157B26A8FB0D003A759D /* lab_array-range.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +79,9 @@
 		04585EFA269FEB8900923070 /* HW30.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW30.cpp; sourceTree = "<group>"; };
 		045D157326A8C976003A759D /* HW46.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW46.cpp; sourceTree = "<group>"; };
 		045D157526A8D703003A759D /* HW47.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW47.cpp; sourceTree = "<group>"; };
+		045D157726A8EABD003A759D /* HW48.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW48.cpp; sourceTree = "<group>"; };
+		045D157926A8EC3C003A759D /* HW49.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW49.cpp; sourceTree = "<group>"; };
+		045D157B26A8FB0D003A759D /* lab_array-range.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "lab_array-range.cpp"; sourceTree = "<group>"; };
 		0462E49F268BF02A00FD032B /* research_DataType.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = research_DataType.c; sourceTree = "<group>"; };
 		0462E4A1268BF59900FD032B /* Basic02_02_datatype.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Basic02_02_datatype.c; sourceTree = "<group>"; };
 		0462E4A3268BF9CD00FD032B /* Q2-06_taxCal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Q2-06_taxCal.c"; sourceTree = "<group>"; };
@@ -268,6 +271,8 @@
 			children = (
 				045D157326A8C976003A759D /* HW46.cpp */,
 				045D157526A8D703003A759D /* HW47.cpp */,
+				045D157726A8EABD003A759D /* HW48.cpp */,
+				045D157926A8EC3C003A759D /* HW49.cpp */,
 			);
 			path = Stock;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 		045D157226A8C922003A759D /* Day 19_210722 */ = {
 			isa = PBXGroup;
 			children = (
+				045D157B26A8FB0D003A759D /* lab_array-range.cpp */,
 			);
 			path = "Day 19_210722";
 			sourceTree = "<group>";
@@ -502,7 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045D157626A8D703003A759D /* HW47.cpp in Sources */,
+				045D157C26A8FB0D003A759D /* lab_array-range.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
