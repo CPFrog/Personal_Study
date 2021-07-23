@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045D157C26A8FB0D003A759D /* lab_array-range.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045D157B26A8FB0D003A759D /* lab_array-range.cpp */; };
-		045D157D26A91552003A759D /* HW46.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045D157326A8C976003A759D /* HW46.cpp */; };
+		045D158026A917E1003A759D /* HW46.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045D157326A8C976003A759D /* HW46.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -270,8 +269,6 @@
 		0434BE8E26A4D38700F7F0EE /* Stock */ = {
 			isa = PBXGroup;
 			children = (
-				045D157526A8D703003A759D /* HW47.cpp */,
-				045D157726A8EABD003A759D /* HW48.cpp */,
 				045D157926A8EC3C003A759D /* HW49.cpp */,
 			);
 			path = Stock;
@@ -310,6 +307,8 @@
 			children = (
 				045D157B26A8FB0D003A759D /* lab_array-range.cpp */,
 				045D157326A8C976003A759D /* HW46.cpp */,
+				045D157526A8D703003A759D /* HW47.cpp */,
+				045D157726A8EABD003A759D /* HW48.cpp */,
 			);
 			path = "Day 19_210722";
 			sourceTree = "<group>";
@@ -509,8 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045D157D26A91552003A759D /* HW46.cpp in Sources */,
-				045D157C26A8FB0D003A759D /* lab_array-range.cpp in Sources */,
+				045D158026A917E1003A759D /* HW46.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
