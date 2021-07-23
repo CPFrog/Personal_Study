@@ -48,7 +48,7 @@ int check(int year, int month, int day){
 		case 2:
 			if(day>29)
 				return 1;
-			else if(day==29&&(yearCheck(year)!=0))
+			else if(day==29&&(yearCheck(year)==0))
 				return 1;
 			else return 0;
 		case 4:
@@ -90,30 +90,30 @@ int yearCheck(int year){
 }
 
 void output(int year, int month, int day, unsigned int sum){
-	char c[2];
+    printf("  %d년 %d월 %d일은 ", year, month, day);
 	switch(sum%7){
 		case 0:
-			strcpy(c,"일");
+            printf("일요일입니다.\n");
 			break;
 		case 1:
-			strcpy(c,"월");
+            printf("월요일입니다.\n");
 			break;
 		case 2:
-			strcpy(c,"화");
+            printf("화요일입니다.\n");
 			break;
 		case 3:
-			strcpy(c,"수");
+            printf("수요일입니다.\n");
 			break;
 		case 4:
-			strcpy(c,"목");
+            printf("목요일입니다.\n");
 			break;
 		case 5:
-			strcpy(c,"금");
+            printf("금요일입니다.\n");
 			break;
 		default:
-			strcpy(c,"토");
+            printf("토요일입니다.\n");
 	}
-	printf("  %d년 %d월 %d일은 %s요일입니다.\n", year, month, day, c);
+	
 }
 
 void flush(){
