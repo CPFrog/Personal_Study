@@ -247,6 +247,7 @@
 				04AD199026A6517C00E9E25E /* Day 17_210720 */,
 				048AEBAD26A7C72700707C7A /* Day 18_210721 */,
 				045D157226A8C922003A759D /* Day 19_210722 */,
+				04A5915D26AA65B00012193E /* Day 20_210723 */,
 				0434BE8E26A4D38700F7F0EE /* Stock */,
 			);
 			path = "C Language Study";
@@ -269,7 +270,6 @@
 		0434BE8E26A4D38700F7F0EE /* Stock */ = {
 			isa = PBXGroup;
 			children = (
-				045D157926A8EC3C003A759D /* HW49.cpp */,
 			);
 			path = Stock;
 			sourceTree = "<group>";
@@ -382,6 +382,14 @@
 				049538D726A51E3F00ECA8C2 /* User.h */,
 			);
 			path = "Day 16_210719";
+			sourceTree = "<group>";
+		};
+		04A5915D26AA65B00012193E /* Day 20_210723 */ = {
+			isa = PBXGroup;
+			children = (
+				045D157926A8EC3C003A759D /* HW49.cpp */,
+			);
+			path = "Day 20_210723";
 			sourceTree = "<group>";
 		};
 		04AC90902697CEC1000D0561 /* Day 10_210709 */ = {
