@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		043A190B26ADE16000846B9D /* HW53.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 043A190A26ADE16000846B9D /* HW53.cpp */; };
+		04072DD126AFA28D00D9695C /* Ex10-11.c in Sources */ = {isa = PBXBuildFile; fileRef = 04072DD026AFA28D00D9695C /* Ex10-11.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04072DD026AFA28D00D9695C /* Ex10-11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "Ex10-11.c"; sourceTree = "<group>"; };
 		040AF64B269B51E8005B8E91 /* HW18.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW18.cpp; sourceTree = "<group>"; };
 		040AF64D269B53FF005B8E91 /* HW19.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW19.cpp; sourceTree = "<group>"; };
 		040AF64F269B555C005B8E91 /* HW20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW20.cpp; sourceTree = "<group>"; };
@@ -48,6 +49,10 @@
 		04119822269EA756004EF23F /* HW26.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW26.cpp; sourceTree = "<group>"; };
 		04119824269EBDB8004EF23F /* HW27.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW27.cpp; sourceTree = "<group>"; };
 		04119826269EC26C004EF23F /* HW28.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW28.cpp; sourceTree = "<group>"; };
+		04158EA326AED3D0009045DA /* HW54.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW54.cpp; sourceTree = "<group>"; };
+		04158EA526AEDB91009045DA /* HW55.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW55.cpp; sourceTree = "<group>"; };
+		04158EA726AEE4F8009045DA /* HW56.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW56.cpp; sourceTree = "<group>"; };
+		04158EA926AEE938009045DA /* HW58.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW58.cpp; sourceTree = "<group>"; };
 		041949F826A147BE004A7C35 /* HW31.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW31.cpp; sourceTree = "<group>"; usesTabs = 1; };
 		041949FB26A153D8004A7C35 /* HW32.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW32.cpp; sourceTree = "<group>"; };
 		041949FD26A15C6B004A7C35 /* HW34.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HW34.cpp; sourceTree = "<group>"; };
@@ -149,6 +154,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04072DCF26AFA26700D9695C /* Day 22_210727 */ = {
+			isa = PBXGroup;
+			children = (
+				04072DD026AFA28D00D9695C /* Ex10-11.c */,
+			);
+			path = "Day 22_210727";
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
 		0411403F2693EF1C00701C02 /* Day 07_210706 */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +209,18 @@
 				04119826269EC26C004EF23F /* HW28.cpp */,
 			);
 			path = "Day 13_210714";
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		04158EA226AED35C009045DA /* Day 21_210726 */ = {
+			isa = PBXGroup;
+			children = (
+				04158EA326AED3D0009045DA /* HW54.cpp */,
+				04158EA526AEDB91009045DA /* HW55.cpp */,
+				04158EA726AEE4F8009045DA /* HW56.cpp */,
+				04158EA926AEE938009045DA /* HW58.cpp */,
+			);
+			path = "Day 21_210726";
 			sourceTree = "<group>";
 			usesTabs = 1;
 		};
@@ -252,6 +278,8 @@
 				048AEBAD26A7C72700707C7A /* Day 18_210721 */,
 				045D157226A8C922003A759D /* Day 19_210722 */,
 				04A5915D26AA65B00012193E /* Day 20_210723 */,
+				04158EA226AED35C009045DA /* Day 21_210726 */,
+				04072DCF26AFA26700D9695C /* Day 22_210727 */,
 				0434BE8E26A4D38700F7F0EE /* Stock */,
 			);
 			path = "C Language Study";
@@ -524,7 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043A190B26ADE16000846B9D /* HW53.cpp in Sources */,
+				04072DD126AFA28D00D9695C /* Ex10-11.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
