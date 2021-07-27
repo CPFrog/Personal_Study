@@ -14,6 +14,7 @@
 	- 원인 : OracleXETNSListener가 중지됨.
 	- 원인의 원인 : 위의 Listener가 8080포트를 선점하고 있어 서버가 정상실행되지 못해 taskkill 커맨드로 프로세스 강제종료함.
 	- 해결 : 작업관리자에서 OracleXETNSListener 재시작.
+	- 추후 해결 : 포트번호 충돌하지 않도록 웹서버의 포트번호를 8080->8181로 변경함.
 	*/
 	//1. JDBC Driver 로딩
 	Class.forName("oracle.jdbc.driver.OracleDriver");
