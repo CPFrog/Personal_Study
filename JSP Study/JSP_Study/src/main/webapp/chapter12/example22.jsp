@@ -11,8 +11,9 @@
 	<jsp:setProperty property="*" name="book"/>
 	
 	<%
-		//request.setAttribute("book", book);
-		session.setAttribute("book", book);
+		//request.setAttribute("book", book); <- request 정보 추출
+		//session.setAttribute("book", book); <- session 정보 추출
+		application.setAttribute("book", book); //<-application 정보 추출
 	%>
 	
 	<jsp:forward page="bookOutput.jsp" />
