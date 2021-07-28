@@ -7,7 +7,13 @@ public class MyCustomTag extends TagSupport{
 	@Override
 	public int doStartTag() throws JspException {
 		System.out.println("시작 태그 만남");
-		return super.doStartTag();
+		return EVAL_BODY_INCLUDE;
+	}
+	
+	@Override
+	public int doAfterBody() throws JspException {
+		System.out.println("body 처리 완료");
+		return super.doAfterBody();
 	}
 	
 	@Override

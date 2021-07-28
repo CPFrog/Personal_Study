@@ -7,6 +7,7 @@
   <tag>
     <name>first</name>
     <tag-class>com.edu.customTag.MyCustomTag</tag-class>
-    <body-content>empty</body-content>
+    <!-- <body-content>empty</body-content> : 몸체를 가지지 않음을 선언 -->
+    <body-content>JSP</body-content>
   </tag>
 </taglib>
