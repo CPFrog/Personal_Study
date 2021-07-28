@@ -31,5 +31,6 @@ public class MyCustomTag extends TagSupport{
 	public int doEndTag() throws JspException {
 		System.out.println("종료 태그 만남");
 		return EVAL_PAGE;
+		//return SKIP_PAGE; <- </my:first> 이후의 코드 (Custom Tag Test! 출력)가 실행되지 않음. 
 	}
 }
