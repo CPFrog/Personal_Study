@@ -9,5 +9,10 @@
     <tag-class>com.edu.customTag.MyCustomTag</tag-class>
     <!-- <body-content>empty</body-content> : 몸체를 가지지 않음을 선언 -->
     <body-content>JSP</body-content>
+    <attribute>
+    	<name>color</name>
+    	<required>true</required> <!-- 필수요소인지 여부 결정. true인 경우 color 값 세팅 안되면 오류. -->
+    	<rtexprvalue>true</rtexprvalue> <!-- 속성값을 동적으로 줌으로써 JSP태그나 EL표현식이 가능하도록. -->
+    </attribute>
   </tag>
 </taglib>
