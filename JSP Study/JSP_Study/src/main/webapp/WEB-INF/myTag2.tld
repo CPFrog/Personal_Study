@@ -13,4 +13,10 @@ http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd ">
   	<tag-class>com.edu.customTag.MyCustomTag2</tag-class>
   	<body-content>scriptless</body-content>
   </tag>
+  
+  <tag>
+  	<name>third</name>
+  	<tag-class>com.edu.customTag.MyCustomTag3</tag-class>
+  	<body-content>scriptless</body-content>
+  </tag>
 </taglib>
