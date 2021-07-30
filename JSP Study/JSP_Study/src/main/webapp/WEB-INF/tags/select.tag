@@ -1,5 +1,5 @@
 <%@ tag body-content="empty" pageEncoding="utf-8" %>
-<%@ taglib prefic=c uri=http://java.sun.com/jsp/jstl/core  %>
+<%@ taglib prefix=c uri=http://java.sun.com/jsp/jstl/core  %>
 
 <%@ tag dynamic-attributes="options" %>
 <%@attribute name="location" required="true" %>
