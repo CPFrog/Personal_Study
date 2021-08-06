@@ -14,4 +14,8 @@ public class MemberService {
 	public void memberInsert(MemberVO member) {
 		dao.memberInsert(member);
 	}
+	public MemberVO memberSearch(String id) {
+		MemberVO member=dao.memberSearch(id);
+		return member;
+	}
 }

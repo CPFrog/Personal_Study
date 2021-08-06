@@ -67,5 +67,30 @@ public class MemberDAO {
 			close(con,pstmt); 
 		}
 	}
-
+	public MemberVO memberSearch(String id) {
+		Connection con=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		
+		MemberVO member=null;
+		
+		try {
+			con=connect();
+			pstmt=con.prepareStatement("select * from member where id=?");
+			pstmt.setString(1, id);
+			rs=pstmt.executeQuery();
+			if(rs.next()) {
+				member=new MemberVO();
+				member.setID(rs.getString(1));
+				member.setPW(rs.getString(2));
+				member.setName(rs.getString(3));
+				member.setMail(rs.getString(4));
+			}
+		} catch (Exception e) {
+			System.out.println("오류 발생 " + e);
+		}finally {
+			close(con,pstmt,rs);
+		}
+		return member;
+	}
 }
