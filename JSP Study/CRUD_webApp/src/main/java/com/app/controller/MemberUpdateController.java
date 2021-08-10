@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import com.app.service.MemberService;
 import com.app.vo.MemberVO;
 
-public class MemberUpdateController {
+public class MemberUpdateController implements Controller {
 	public void execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 		//파라미터 추출
 		String id=req.getParameter("id");

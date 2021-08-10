@@ -21,4 +21,7 @@ public class MemberService {
 	public void memberUpdate(MemberVO member) {
 		dao.memberUpdate(member);
 	}
+	public void memberDelete(String id) {
+		dao.memberDelete(id);
+	}
 }
