@@ -1,5 +1,7 @@
 package com.app.dao;
 
+import java.util.ArrayList;
+
 import java.sql.*;
 import com.app.vo.MemberVO;
 
@@ -126,5 +128,33 @@ public class MemberDAO {
 		}finally {
 			close(con,pstmt);
 		}
+	}
+	
+	public ArrayList<MemberVO> memberList(){
+		ArrayList<MemberVO> list=new ArrayList<MemberVO>();
+		Connection con=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+		
+		MemberVO member=null;
+		try {
+			con=connect();
+			pstmt=con.prepareStatement("select * from member");
+			rs=pstmt.executeQuery();
+			while(rs.next()) {
+				member=new MemberVO();
+				member.setID(rs.getString(1));
+				member.setPW(rs.getString(2));
+				member.setName(rs.getString(3));
+				member.setMail(rs.getString(4));
+				list.add(member);
+			}
+			
+		} catch(Exception e) {
+			System.out.println("오류 발생 : "+e);
+		} finally {
+			close(con, pstmt, rs);
+		}
+		return list;
 	}
 }
