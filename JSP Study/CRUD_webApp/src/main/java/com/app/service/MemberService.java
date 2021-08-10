@@ -18,4 +18,7 @@ public class MemberService {
 		MemberVO member=dao.memberSearch(id);
 		return member;
 	}
+	public void memberUpdate(MemberVO Member) {
+		dao.memberUpdate(member);
+	}
 }

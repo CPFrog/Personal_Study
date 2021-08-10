@@ -93,4 +93,22 @@ public class MemberDAO {
 		}
 		return member;
 	}
+	
+	public void memberUpdate(MemberVO member) {
+		Connection con=null;
+		PreparedStatement pstmt=null;
+		
+		try {
+			con=connect();
+			pstmt=con.prepareStatement("update member set pw=?,name=?,mail=? where id=?");
+			pstmt.setString(1, member.getPW());
+			pstmt.setString(2, member.getName());
+			pstmt.setString(3, member.getMail());
+			pstmt.setString(4, member.getID());
+		} catch (Exception e) {
+			System.out.println("오류 발생 : "+e);
+		}finally {
+			close(con,pstmt)
+		}
+	}
 }
