@@ -22,7 +22,8 @@ public class MemberInsertController implements Controller{
 			HttpUtil.forward(req, resp, "/memberInsert.jsp");
 			return;
 		}
-	}
+	
+	
 	
 	// VO 객체에 데이터 바인딩
 	MemberVO member=new MemberVO();
@@ -36,7 +37,7 @@ public class MemberInsertController implements Controller{
 	service.memberInsert(member);
 	
 	// 출력 View 페이지로 이동
-	req.setAttrivute("id", id);
+	req.setAttribute("id", id);
 	HttpUtil.forward(req,resp,"/result/memberInsertOutput.jsp");
-
+	}
 }

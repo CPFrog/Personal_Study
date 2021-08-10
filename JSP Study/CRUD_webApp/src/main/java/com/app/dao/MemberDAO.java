@@ -108,7 +108,7 @@ public class MemberDAO {
 		} catch (Exception e) {
 			System.out.println("오류 발생 : "+e);
 		}finally {
-			close(con,pstmt)
+			close(con,pstmt);
 		}
 	}
 }
