@@ -7,10 +7,10 @@ public class LGtv {
 	public void turnOFF() {
 		System.out.println("LGtv--전원 OFF");
 	}
-	public void soundUP() {
-		System.out.println("LGtv--음량 UP");
+	public void chUP() {
+		System.out.println("LGtv--다음 채널");
 	}
-	public void soundDown() {
-		System.out.println("LGtv--음량 Down");
+	public void chDown() {
+		System.out.println("LGtv--이전 채널");
 	}
 }

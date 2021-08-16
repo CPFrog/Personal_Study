@@ -7,10 +7,10 @@ public class SamsungTV {
 	public void powerOFF() {
 		System.out.println("SamsungTV--전원 OFF");
 	}
-	public void volumeUP() {
-		System.out.println("SamsungTV--음량 UP");
+	public void channelUP() {
+		System.out.println("SamsungTV--채널 UP");
 	}
-	public void volumeDown() {
-		System.out.println("SamsungTV--음량 Down");
+	public void channelDown() {
+		System.out.println("SamsungTV--채널 Down");
 	}
 }
