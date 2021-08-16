@@ -8,10 +8,16 @@ public class TVUser {
 //		tv.channelDown();
 //		tv.powerOFF();
 		
-		LGtv tv=new LGtv();
-		tv.turnON();
-		tv.chUP();
-		tv.chDown();
-		tv.turnOFF();
+//		LGtv tv=new LGtv();
+//		tv.turnON();
+//		tv.chUP();
+//		tv.chDown();
+//		tv.turnOFF();
+		
+		TV tv=new SamsungTV();//new LGtv();
+		tv.powerOn();
+		tv.channelUp();
+		tv.channelDown();
+		tv.powerOff();
 	}
 }
