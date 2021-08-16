@@ -14,7 +14,8 @@ public class TVUser {
 //		tv.chDown();
 //		tv.turnOFF();
 		
-		TV tv=new SamsungTV();//new LGtv();
+		BeanFactory factory=new BeanFactory();
+		TV tv=(TV)factory.getBean(args[0]);
 		tv.powerOn();
 		tv.channelUp();
 		tv.channelDown();
