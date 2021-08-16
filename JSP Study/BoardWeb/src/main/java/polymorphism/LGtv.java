@@ -13,4 +13,10 @@ public class LGtv implements TV {
 	public void channelDown() {
 		System.out.println("LGtv--이전 채널");
 	}
+	public void volumeUp() {
+		System.out.println("LGtv--볼륨 높임");
+	}
+	public void volumeDown() {
+		System.out.println("LGtv--볼륨 낮춤");
+	}
 }

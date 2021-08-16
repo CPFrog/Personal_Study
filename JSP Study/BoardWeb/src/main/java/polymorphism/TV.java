@@ -5,5 +5,6 @@ public interface TV {
 	public void powerOff();
 	public void channelUp();
 	public void channelDown();
-
+	public void volumeUp();
+	public void volumeDown();
 }
