@@ -18,6 +18,7 @@
 		<list>
 			<value>서울시 강남구 역삼동</value>
 			<value>서울시 영등포구 여의도동</value>
+			<value>서울시 영등포구 여의도동</value> <!-- Set 데이터형을 쓰면 중복 방지 가능. -->
 		</list>
 		</property>
 		</bean>
