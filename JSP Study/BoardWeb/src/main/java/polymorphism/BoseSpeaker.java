@@ -1,5 +1,8 @@
 package polymorphism;
 
+import org.springframework.stereotype.Component;
+
+@Component("Bose")
 public class BoseSpeaker implements Speaker{
 	public BoseSpeaker() {
 		System.out.println("~~ BoseSpeaker 객체 생성 ~~");
