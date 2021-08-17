@@ -2,9 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:p="http://www.springframework.org/schema/p"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-<!-- 	<bean id="tv" class="polymorphism.SamsungTV" scope="singleton"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+	
+	
+ 	<!-- <bean id="tv" class="polymorphism.SamsungTV" scope="singleton"
 	p:speaker-ref="bose" p:price="2700000">
 	<constructor-arg ref="bose"></constructor-arg>
 	<constructor-arg value="2700000"></constructor-arg>
@@ -13,12 +16,15 @@
 	</bean>
 	<bean id="bose" class="polymorphism.BoseSpeaker"></bean>
 	<bean id="sony" class="polymorphism.SonySpeaker"></bean> -->
-	<bean id="collectionBean" class="com.springbook.ioc.injection.CollectionBean">
+	<!-- <bean id="collectionBean" class="com.springbook.ioc.injection.CollectionBean">
 		<property name="addressList">
 			<props>
 				<prop key="강팀장">서울시 영등포구 대림동</prop>
 				<prop key="고대리">경기도 고양시 일산서구</prop>
 			</props>
 		</property>
-		</bean>
+		</bean> -->
+	<context:component-scan base-package="polymorphism"></context:component-scan>
+	<bean class="polymorphism.LGtv" scope="singleton"></bean>
+	<bean id="tv" class="polymorphism.LGtv"></bean>
 </beans>
