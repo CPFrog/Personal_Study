@@ -10,8 +10,8 @@ public class CollectionBeanClient {
 		AbstractApplicationContext factory=new GenericXmlApplicationContext("applicationContext.xml");
 		
 		CollectionBean bean=(CollectionBean) factory.getBean("collectionBean");
-		Set<String> addressList=bean.getAddressList();
-		for(String address:addressList)
+		Properties addressList=bean.getAddressList();
+		for(String address:addressList) //타이핑이 목적이므로 실행여부 신경 안씀.
 			System.out.println(address);
 		factory.close();
 	}

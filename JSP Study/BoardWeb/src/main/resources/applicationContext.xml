@@ -15,16 +15,10 @@
 	<bean id="sony" class="polymorphism.SonySpeaker"></bean> -->
 	<bean id="collectionBean" class="com.springbook.ioc.injection.CollectionBean">
 		<property name="addressList">
-		<map>
-			<entry>
-				<key><value>강팀장</value></key>
-				<value>서울시 영등포구 대림동</value>
-			</entry>
-			<entry>
-				<key><value>고대리</value></key>
-				<value>경기도 고양시 일산서구</value>
-			</entry>
-		</map>
+			<props>
+				<prop key="강팀장">서울시 영등포구 대림동</prop>
+				<prop key="고대리">경기도 고양시 일산서구</prop>
+			</props>
 		</property>
 		</bean>
 </beans>
