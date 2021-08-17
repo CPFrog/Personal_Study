@@ -24,8 +24,6 @@
 			</props>
 		</property>
 		</bean> -->
-	<context:component-scan base-package="polymorphism"></context:component-scan>
-	<bean class="polymorphism.LGtv" scope="singleton"></bean>
-	<bean id="tv" class="polymorphism.LGtv"></bean>
-	<bean id="sony" class="polymorphism.SonySpeaker"></bean>
+	<context:component-scan base-package="polymorphism"/>
+	<bean class="polymorphism.SonySpeaker"></bean>
 </beans>
