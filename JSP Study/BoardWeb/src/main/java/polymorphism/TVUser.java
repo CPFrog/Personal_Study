@@ -12,8 +12,8 @@ public class TVUser {
 		//Spring 컨테이너로부터 필요한 객체 요청(Lookup)
 		TV tv=(TV)factory.getBean("tv");
 		tv.powerOn();
-		tv.channelUp();
-		tv.channelDown();
+		//tv.channelUp();
+		//tv.channelDown();
 		tv.volumeUp();
 		tv.volumeDown();
 		tv.powerOff();

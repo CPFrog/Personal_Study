@@ -4,7 +4,7 @@ public class SamsungTV implements TV{
 	private Speaker speaker;
 	private int price;
 	public SamsungTV() {
-		speaker=new SonySpeaker();
+		//speaker=new SonySpeaker();
 		System.out.println("~~ SamsungTV 객체 생성 ~~");
 	}
 	public SamsungTV(Speaker speaker) {
@@ -15,6 +15,21 @@ public class SamsungTV implements TV{
 		System.out.println("~~ SamsungTV_3 객체 생성");
 		this.speaker=speaker;
 		this.price=price;
+	}
+	
+	public Speaker getSpeaker() {
+		return speaker;
+	}
+	public void setSpeaker(Speaker speaker) {
+		System.out.println("--> setSpeaker 함수 호출");
+		this.speaker = speaker;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		System.out.println("--> setPrice 함수 호출");
+		this.price = price;
 	}
 	public void powerOn() {
 		System.out.println("SamsungTV (가격 : "+price+")--전원 ON");

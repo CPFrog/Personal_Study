@@ -3,9 +3,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="tv" class="polymorphism.SamsungTV" scope="prototype">
-	<constructor-arg ref="bose"></constructor-arg>
-	<constructor-arg value="2700000"></constructor-arg>
+	<bean id="tv" class="polymorphism.SamsungTV" scope="singleton">
+	<!-- <constructor-arg ref="bose"></constructor-arg>
+	<constructor-arg value="2700000"></constructor-arg> -->
+	<property name="speaker" ref="bose"></property>
+	<property name="price" value="270000"></property>
 	</bean>
 	<bean id="bose" class="polymorphism.BoseSpeaker"></bean>
+	<!-- <bean id="sony" class="polymorphism.SonySpeaker"></bean> -->
 </beans>
