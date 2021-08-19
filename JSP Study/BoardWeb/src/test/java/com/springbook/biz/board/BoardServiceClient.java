@@ -24,6 +24,7 @@ public class BoardServiceClient {
 		List<BoardVO> boardList=boardService.getBoardList(vo);
 		for(BoardVO i:boardList)
 			System.out.println("-->" + i.toString());
+		
 		//5. 컨테이너 종료
 		container.close();
 	}
