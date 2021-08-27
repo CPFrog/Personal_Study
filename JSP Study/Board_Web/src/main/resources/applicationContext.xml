@@ -32,17 +32,25 @@
 	<context:component-scan base-package="com.springbook.biz"/>
 	<bean id="log" class="com.springbook.biz.common.LogAdvice"></bean>
 	<bean id="before" class="com.springbook.biz.common.BeforeAdvice"/>
+	<bean id="afterReturn" class="com.springbook.biz.common.AfterReturningAdvice"/>
+	<bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice" />
 	
 	<aop:config>
 		<aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))" />
 		<aop:pointcut id="getPointcut" expression="execution(* com.springbook.biz..*Impl.get*(..))" />
 		
-		<aop:aspect ref="before">
+		<!-- <aop:aspect ref="before">
 		<aop:before pointcut-ref="allPointcut" method="beforeLog"/>
+		</aop:aspect> !-->
+		<aop:aspect ref="afterReturn">
+			<aop:after-returning pointcut-ref="getPointcut" method="afterLog"/>
 		</aop:aspect>
-		<aop:aspect ref="log">
+		<aop:aspect ref="afterThrowing">
+			<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog"/>
+		</aop:aspect>
+		<!-- <aop:aspect ref="log">
 			<aop:before pointcut-ref="allPointcut" method="printLog" />
-		</aop:aspect>
+		</aop:aspect> -->
 	</aop:config>
 	
 	<!-- <bean id="userService" class="com.springbook.biz.user.impl.UserServiceImpl">
