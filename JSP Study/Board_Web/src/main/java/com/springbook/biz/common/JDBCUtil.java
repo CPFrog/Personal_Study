@@ -9,50 +9,55 @@ public class JDBCUtil {
 	public static Connection getConnection() {
 		try {
 			Class.forName("org.h2.Driver");
-			return DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test","sa","");
+			return DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test", "sa", "");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return null;
 	}
+
 	public static void close(PreparedStatement stmt, Connection con) {
-		if(stmt!=null) {
+		if (stmt != null) {
 			try {
-				if(!stmt.isClosed()) stmt.close();
+				if (!stmt.isClosed())
+					stmt.close();
 			} catch (Exception e) {
 				e.printStackTrace();
 			} finally {
-				stmt=null;
+				stmt = null;
 			}
 		}
 	}
-	
+
 	public static void close(ResultSet rs, PreparedStatement stmt, Connection con) {
-		if(rs!=null) {
+		if (rs != null) {
 			try {
-				if(!rs.isClosed()) rs.close();
+				if (!rs.isClosed())
+					rs.close();
 			} catch (Exception e) {
 				e.printStackTrace();
 			} finally {
-				rs=null;
+				rs = null;
 			}
 		}
-		if(stmt!=null) {
+		if (stmt != null) {
 			try {
-				if(!stmt.isClosed()) stmt.close();
+				if (!stmt.isClosed())
+					stmt.close();
 			} catch (Exception e) {
 				e.printStackTrace();
 			} finally {
-				stmt=null;
+				stmt = null;
 			}
 		}
-		if(con!=null) {
+		if (con != null) {
 			try {
-				if(!con.isClosed()) con.close();
+				if (!con.isClosed())
+					con.close();
 			} catch (Exception e) {
 				e.printStackTrace();
 			} finally {
-				con=null;
+				con = null;
 			}
 		}
 	}
