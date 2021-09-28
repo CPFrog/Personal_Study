@@ -48,7 +48,7 @@
 			<aop:after-returning pointcut-ref="getPointcut" method="afterLog" returning="returnObj"/>
 		</aop:aspect>
 		<aop:aspect ref="afterThrowing">
-			<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog"/>
+			<aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog" throwing="exceptObj"/>
 		</aop:aspect>
 		<aop:aspect ref="around">
 			<aop:around pointcut-ref="allPointcut" method="aroundLog"/>
